@@ -5,11 +5,9 @@
 
 ## Gas Snapshot
 
-In order to simulate the difference in native multi-transfer versus sending the transactions individually can be seen in the gas snapshot. The current test runs the following simulations:
-
-- Sending 100 transactions individually (`test_simulateRegularTransfers`)
-- Sending 100 transactions in a single transaction (`test_simulateMultiTransfer`)
+In order to simulate the difference in native multi-transfer versus sending the transactions individually can be seen in the gas snapshot.
 The gas snapshot for the ERC20 Multi-Transfer Extension can be found [here](.gas-snapshot).
+The gas report for more detailed tests can be found [here](gas-report.json).
 
 ---
 

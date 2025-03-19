@@ -1,0 +1,18 @@
+{
+  "test_simulate_multi_transfer_extension()": [
+    "Multitransfer extension --- gas used: 29589786",
+    "Multitransfer extension (already initialized) --- gas used: 10985373"
+  ],
+  "test_simulate_multi_transfer_non_standard()": [
+    "Multitransfer Non-standard --- gas used: 27691172",
+    "Multitransfer Non-standard (already initialized) --- gas used: 9086753"
+  ],
+  "test_simulate_multi_transfer_standard()": [
+    "Multitransfer Standard --- gas used: 29613157",
+    "Multitransfer Standard (already initialized) --- gas used: 11008738"
+  ],
+  "test_simulate_sequential_transfers()": [
+    "Sequential Transfers --- gas used: 56697808",
+    "Sequential Transfers (already initialized) --- gas used: 38110181"
+  ]
+}

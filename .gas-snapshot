@@ -1,4 +1,4 @@
-Simulation:test_simulate_multi_transfer_extension() (gas: 31218002)
-Simulation:test_simulate_multi_transfer_non_standard() (gas: 29319350)
-Simulation:test_simulate_multi_transfer_standard() (gas: 31241163)
-Simulation:test_simulate_sequential_transfers() (gas: 32420519)
+Simulation:test_simulate_multi_transfer_extension() (gas: 40582752)
+Simulation:test_simulate_multi_transfer_non_standard() (gas: 36785498)
+Simulation:test_simulate_multi_transfer_standard() (gas: 40629284)
+Simulation:test_simulate_sequential_transfers() (gas: 94815869)
