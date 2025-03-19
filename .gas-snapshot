@@ -1,2 +1,4 @@
-ERC20MultitransferTest:test_simulateMultiTransfer() (gas: 2926539)
-ERC20MultitransferTest:test_simulateRegularTransfers() (gas: 3043313)
+Simulation:test_simulate_multi_transfer_extension() (gas: 31218002)
+Simulation:test_simulate_multi_transfer_non_standard() (gas: 29319350)
+Simulation:test_simulate_multi_transfer_standard() (gas: 31241163)
+Simulation:test_simulate_sequential_transfers() (gas: 32420519)
