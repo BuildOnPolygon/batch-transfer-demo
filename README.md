@@ -1,17 +1,17 @@
-## ERC20 Multi-Transfer Extension
+# ERC20 Multi-Transfer Extension
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CI Status](../../actions/workflows/test.yaml/badge.svg)](../../actions)
 
-#### Table of Contents
+## Gas Snapshot
 
-- [ERC20 Multi-Transfer Extension](#erc20-multi-transfer-extension)
-    - [Table of Contents](#table-of-contents)
-- [Setup](#setup)
-- [Deployment](#deployment)
-- [Docs](#docs)
-- [Contributing](#contributing)
-- [License](#license)
+In order to simulate the difference in native multi-transfer versus sending the transactions individually can be seen in the gas snapshot. The current test runs the following simulations:
+
+- Sending 100 transactions individually (`test_simulateRegularTransfers`)
+- Sending 100 transactions in a single transaction (`test_simulateMultiTransfer`)
+The gas snapshot for the ERC20 Multi-Transfer Extension can be found [here](.gas-snapshot).
+
+---
 
 ## Setup
 
@@ -23,16 +23,6 @@ Follow these steps to set up your local environment:
 - Test contracts: `forge test`
 
 If you intend to develop on this repo, follow the steps outlined in [CONTRIBUTING.md](CONTRIBUTING.md#install).
-
-## Deployment
-
-This repo utilizes versioned deployments. For more information on how to use forge scripts within the repo, check [here](CONTRIBUTING.md#deployment).
-
-Smart contracts are deployed or upgraded using the following command:
-
-```shell
-forge script script/Deploy.s.sol --broadcast --rpc-url <rpc_url> --verify
-```
 
 ## Docs
 
@@ -50,8 +40,8 @@ If you want to contribute to this project, please check [CONTRIBUTING.md](CONTRI
 Licensed under either of
 ​
 
-- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
   ​
 
 at your option.

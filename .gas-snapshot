@@ -1,0 +1,2 @@
+ERC20MultitransferTest:test_simulateMultiTransfer() (gas: 2926539)
+ERC20MultitransferTest:test_simulateRegularTransfers() (gas: 3043313)
