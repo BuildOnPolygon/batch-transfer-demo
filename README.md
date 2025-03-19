@@ -1,15 +1,12 @@
-## Template Repo (Foundry)
+## ERC20 Multi-Transfer Extension
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CI Status](../../actions/workflows/test.yaml/badge.svg)](../../actions)
 
-This template repo is a quick and easy way to get started with a new Solidity project. It comes with a number of features that are useful for developing and deploying smart contracts. Such as:
-
-- Pre-commit hooks for formatting, auto generated documentation, and more
-- Various libraries with useful contracts (OpenZeppelin, Solady) and libraries (Deployment log generation, storage checks, deployer templates)
-
 #### Table of Contents
 
+- [ERC20 Multi-Transfer Extension](#erc20-multi-transfer-extension)
+    - [Table of Contents](#table-of-contents)
 - [Setup](#setup)
 - [Deployment](#deployment)
 - [Docs](#docs)
