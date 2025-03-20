@@ -3,11 +3,24 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CI Status](../../actions/workflows/test.yaml/badge.svg)](../../actions)
 
-## Gas Snapshot
+## Gas Simulation Tests
 
 In order to simulate the difference in native multi-transfer versus sending the transactions individually can be seen in the gas snapshot.
-The gas snapshot for the ERC20 Multi-Transfer Extension can be found [here](.gas-snapshot).
-The gas report for more detailed tests can be found [here](gas-report.json).
+
+- The gas snapshot for the ERC20 Multi-Transfer Extension can be found [here](.gas-snapshot).
+- The gas report for more detailed tests can be found [here](gas-report.json).
+
+To generate the gas report, run the following command:
+
+```bash
+./script/util/gen_gas_report.sh
+```
+
+To view the `Foundry` gas report, run the following command:
+
+```bash
+forge test --gas-report
+```
 
 ---
 
